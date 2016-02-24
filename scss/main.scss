@@ -9,6 +9,24 @@ body {
   margin: 0;
 }
 
+header, footer {
+  width: 100%;
+  background: #FFE0B2;
+  text-align: center;
+  position: fixed;
+}
+
+header {
+  height: 100px;
+  top: 0;
+}
+
+footer {
+  height: 50px;
+  bottom: 0;
+  padding: 20px;
+}
+
 a {
   font-weight: bold;
   padding: 10px;
@@ -19,27 +37,16 @@ a {
   }
 }
 
-header, footer {
+main {
   width: 100%;
-  background: #FFE0B2;
-}
-
-header {
-  height: 100px;
-  text-align: center;
-  position: fixed;
-  top: 0;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
+  margin: 100px 0 50px;
 }
 
 article {
-  margin: 10px 20px;
-  height: 50px;
+  height: 400px;
+  @include span-columns(12);
 }
+
 
 @for $i from 1 through 8 {
   #img#{$i} {
