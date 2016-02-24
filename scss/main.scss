@@ -54,6 +54,20 @@ article {
     @include row (table);
     @include span-columns(6, block-collapse);
   }
+  &:hover {
+    h2 {
+      margin: 0;
+      display: block;
+      text-align: center;
+      font-size: 3em;
+      color: #9DFF00;
+      border: 8px solid #9DFF00;
+      @include media (800px) {
+        font-size: 4em;
+        border: 10px solid #9DFF00;
+      }
+    }
+  }
 }
 
 @for $i from 1 through 8 {
@@ -62,5 +76,8 @@ article {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    &:hover::after {
+      opacity: 0.9;
+    }
   }
 }

@@ -1,8 +1,29 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 body {
   background: #FFE0B2;
   font-family: 'Helvetica Neue';
   width: 100%;
   margin: 0; }
+
+header, footer {
+  width: 100%;
+  background: #FFE0B2;
+  text-align: center;
+  position: fixed; }
+
+header {
+  height: 100px;
+  top: 0; }
+
+footer {
+  height: 50px;
+  bottom: 0;
+  padding: 20px; }
 
 a {
   font-weight: bold;
@@ -12,62 +33,110 @@ a {
   a:hover {
     color: #DE939A; }
 
-header, footer {
+main {
   width: 100%;
-  background: #FFE0B2; }
-
-header {
-  height: 100px;
-  text-align: center;
-  position: fixed;
-  top: 0; }
-
-footer {
-  position: fixed;
-  bottom: 0; }
+  margin: 100px 0 50px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  main::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 article {
-  margin: 10px 20px;
-  height: 50px; }
+  height: 300px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  article h2 {
+    display: none; }
+  article:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 800px) {
+    article {
+      height: 500px;
+      display: table;
+      width: 100%;
+      table-layout: fixed;
+      display: table-cell;
+      width: 50%; } }
+  article:hover h2 {
+    margin: 0;
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    color: #9DFF00;
+    border: 8px solid #9DFF00; }
+    @media screen and (min-width: 800px) {
+      article:hover h2 {
+        font-size: 4em;
+        border: 10px solid #9DFF00; } }
 
 #img1 {
   background-image: url("../img/1.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+  #img1:hover::after {
+    opacity: 0.9; }
 
 #img2 {
   background-image: url("../img/2.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+  #img2:hover::after {
+    opacity: 0.9; }
 
 #img3 {
   background-image: url("../img/3.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+  #img3:hover::after {
+    opacity: 0.9; }
 
 #img4 {
   background-image: url("../img/4.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+  #img4:hover::after {
+    opacity: 0.9; }
 
 #img5 {
   background-image: url("../img/5.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+  #img5:hover::after {
+    opacity: 0.9; }
 
 #img6 {
   background-image: url("../img/6.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+  #img6:hover::after {
+    opacity: 0.9; }
 
 #img7 {
   background-image: url("../img/7.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+  #img7:hover::after {
+    opacity: 0.9; }
 
 #img8 {
   background-image: url("../img/8.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+  #img8:hover::after {
+    opacity: 0.9; }
 
 /*# sourceMappingURL=main.css.map */
