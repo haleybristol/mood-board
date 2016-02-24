@@ -3,16 +3,20 @@ body {
   font-family: 'Helvetica Neue';
 }
 
+a {
+  font-weight: bold;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  &:hover {
+    color: #DE939A;
+  }
+}
+
 header {
   height: 100px;
   text-align: center;
-  nav a {
-    font-weight: bold;
-    padding: 10px;
-    color: black;
-    text-decoration: none;
-    &:hover {
-      color: #DE939A;
-    }
-  }
+}
+
+footer {
 }
