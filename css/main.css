@@ -1,0 +1,16 @@
+body {
+  background: #FFE0B2;
+  font-family: 'Helvetica Neue'; }
+
+header {
+  height: 100px;
+  text-align: center; }
+  header nav a {
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+    text-decoration: none; }
+    header nav a:hover {
+      color: #DE939A; }
+
+/*# sourceMappingURL=main.css.map */
