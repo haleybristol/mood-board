@@ -1,6 +1,8 @@
 body {
   background: #FFE0B2;
   font-family: 'Helvetica Neue';
+  width: 100%;
+  margin: 0;
 }
 
 a {
@@ -13,10 +15,32 @@ a {
   }
 }
 
+header, footer {
+  width: 100%;
+  background: #FFE0B2;
+}
+
 header {
   height: 100px;
   text-align: center;
+  position: fixed;
+  top: 0;
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+}
+
+article {
+  margin: 10px 20px;
+  height: 50px;
+}
+
+@for $i from 1 through 8 {
+  #img#{$i} {
+    background-image: url('../img/#{$i}.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
