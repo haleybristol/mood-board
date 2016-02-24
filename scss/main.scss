@@ -39,27 +39,27 @@ a {
 main {
   width: 100%;
   margin: 100px 0 50px;
-  @include outer-container();
+  @include outer-container(1200px);
 }
 
 article {
   h2 {
     display: none;
   }
-  height: 500px;
+  height: 300px;
   @include span-columns(12);
   @include omega();
-  @include media (1000px) {
+  @include media (800px) {
+    height: 500px;
     @include row (table);
     @include span-columns(6, block-collapse);
-
   }
 }
-
 
 @for $i from 1 through 8 {
   #img#{$i} {
     background-image: url('../img/#{$i}.jpg');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
