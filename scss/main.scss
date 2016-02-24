@@ -1,7 +1,6 @@
 @import 'bourbon/bourbon';
 @import 'neat/neat';
 
-
 body {
   background: #FFE0B2;
   font-family: 'Helvetica Neue';
@@ -40,11 +39,21 @@ a {
 main {
   width: 100%;
   margin: 100px 0 50px;
+  @include outer-container();
 }
 
 article {
-  height: 400px;
+  h2 {
+    display: none;
+  }
+  height: 500px;
   @include span-columns(12);
+  @include omega();
+  @include media (1000px) {
+    @include row (table);
+    @include span-columns(6, block-collapse);
+
+  }
 }
 
 
