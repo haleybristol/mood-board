@@ -21,7 +21,7 @@ header, footer {
     color: black;
     text-decoration: none; }
     header a:hover, footer a:hover {
-      color: #DE939A; }
+      color: #b2d1ff; }
 
 header {
   height: 100px;
@@ -51,20 +51,55 @@ main {
     clear: both;
     content: "";
     display: table; }
+  main p {
+    border-bottom: none;
+    padding: 20px; }
+    @media screen and (min-width: 800px) {
+      main p {
+        font-size: 1.1rem;
+        padding: 40px;
+        border-bottom: 2px solid black; } }
 
-section {
+section#acrnm {
   margin-bottom: 50px;
   height: 500px;
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  background: url("../../img/acrnm/ss.jpg"); }
-  section:last-child {
+  background: url("../../img/acrnm/ss.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  section#acrnm:last-child {
     margin-right: 0; }
-  section h2 {
+  section#acrnm h2 {
     width: 400px;
-    margin: 180px auto;
+    text-align: center;
+    font-size: 4em;
+    color: #9DFF00;
+    border: 10px solid #9DFF00;
+    padding: 10px; }
+
+section#alexander {
+  margin-bottom: 50px;
+  height: 500px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background: url("../../img/alexander/hole3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  section#alexander:last-child {
+    margin-right: 0; }
+  section#alexander h2 {
+    width: 450px;
     text-align: center;
     font-size: 4em;
     color: #9DFF00;
@@ -72,16 +107,27 @@ section {
     padding: 10px; }
 
 .col {
+  height: 100%;
+  width: 100%;
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%;
-  margin: 0; }
+  width: 100%; }
   .col:last-child {
     margin-right: 0; }
+  .col:nth-child(n) {
+    margin-right: 0; }
+  @media screen and (min-width: 800px) {
+    .col {
+      margin-right: 0;
+      float: left;
+      display: block;
+      width: 34.11922%; }
+      .col:last-child {
+        width: 31.76157%; } }
   .col img {
     width: 100%;
-    padding: 0; }
+    margin-bottom: -4px; }
 
 #bag {
   margin-top: 300px; }

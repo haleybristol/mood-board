@@ -2,33 +2,38 @@
 @import 'vendor/neat/neat';
 @import 'base/_variables';
 @import 'base/_globals';
+@import 'base/_mixins';
 
 main {
   @include outer-container;
-}
-
-section {
-  margin-bottom: 50px;
-  height: 500px;
-  @include span-columns(12);
-  background: url('../../img/acrnm/ss.jpg');
-  h2 {
-    width: 400px;
-    margin: 180px auto;
-    text-align: center;
-    font-size: 4em;
-    color: $color-title;
-    border: 10px solid $color-title;
-    padding: 10px;
+  p {
+    border-bottom: none;
+    padding: 20px;
+    @include media(800px) {
+      font-size: 1.1rem;
+      padding: 40px;
+      border-bottom: 2px solid black;
+    }
   }
 }
 
+
+@include main-img('../../img/acrnm/ss.jpg', acrnm, 400px);
+@include main-img('../../img/alexander/hole3.jpg', alexander, 450px);
+
+
 .col {
-  @include span-columns(4);
-    margin: 0;
+  height: 100%;
+  width: 100%;
+  @include span-columns(12);
+  @include omega(n);
+  @include media (800px) {
+    @include omega();
+    @include span-columns(4, block-collapse);
+  }
   img {
     width: 100%;
-    padding: 0;
+    margin-bottom: -4px;
 
   }
 }

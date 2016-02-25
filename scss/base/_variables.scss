@@ -2,7 +2,7 @@
 
 $color-prim: #FFE0B2;
 
-$color-hover: #DE939A;
+$color-hover: complement($color-prim);
 
 $color-title: #9DFF00;
 
