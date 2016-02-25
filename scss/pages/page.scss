@@ -1,0 +1,42 @@
+@import 'vendor/bourbon/bourbon';
+@import 'vendor/neat/neat';
+@import 'base/_variables';
+@import 'base/_globals';
+
+main {
+  @include outer-container;
+}
+
+section {
+  margin-bottom: 50px;
+  height: 500px;
+  @include span-columns(12);
+  background: url('../../img/acrnm/ss.jpg');
+  h2 {
+    width: 400px;
+    margin: 180px auto;
+    text-align: center;
+    font-size: 4em;
+    color: $color-title;
+    border: 10px solid $color-title;
+    padding: 10px;
+  }
+}
+
+.col {
+  @include span-columns(4);
+    margin: 0;
+  img {
+    width: 100%;
+    padding: 0;
+
+  }
+}
+
+#bag {
+  margin-top: 300px;
+}
+
+// img:nth-cild(1) {
+//   @include span-columns(4);
+// }

@@ -1,50 +1,12 @@
-@import 'bourbon/bourbon';
-@import 'neat/neat';
-
-body {
-  background: #FFE0B2;
-  font-family: 'Helvetica Neue';
-  width: 100%;
-  margin: 0;
-}
-
-header, footer {
-  width: 100%;
-  background: #FFE0B2;
-  text-align: center;
-  position: fixed;
-}
-
-header {
-  height: 100px;
-  top: 0;
-}
-
-footer {
-  height: 50px;
-  bottom: 0;
-  padding: 20px;
-}
-
-a {
-  font-weight: bold;
-  padding: 10px;
-  color: black;
-  text-decoration: none;
-  &:hover {
-    color: #DE939A;
-  }
-}
-
-main {
-  width: 100%;
-  margin: 100px 0 50px;
-  @include outer-container(1200px);
-}
+@import 'vendor/bourbon/bourbon';
+@import 'vendor/neat/neat';
+@import 'base/_variables';
+@import 'base/_globals';
 
 article {
   h2 {
     display: none;
+    padding: 10px;
   }
   height: 300px;
   @include span-columns(12);
@@ -60,11 +22,11 @@ article {
       display: block;
       text-align: center;
       font-size: 3em;
-      color: #9DFF00;
-      border: 8px solid #9DFF00;
+      color: $color-title;
+      border: 8px solid $color-title;
       @include media (800px) {
         font-size: 4em;
-        border: 10px solid #9DFF00;
+        border: 10px solid $color-title;
       }
     }
   }
