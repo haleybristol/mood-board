@@ -20,7 +20,10 @@ main {
 
 @include main-img('../../img/acrnm/ss.jpg', acrnm, 400px);
 @include main-img('../../img/alexander/hole3.jpg', alexander, 450px);
-
+@include main-img('../../img/ines/smoke.jpg', ines, 450px);
+@include main-img('../../img/carl/wood.jpg', carl, 300px);
+@include main-img('../../img/grimes/grimez.jpg', grimes, 280px);
+@include main-img('../../img/azamat/azamat.jpeg', azamat, 650px);
 
 .col {
   height: 100%;
@@ -34,9 +37,26 @@ main {
   img {
     width: 100%;
     margin-bottom: -4px;
-
   }
 }
+
+.col2 {
+  height: 100%;
+  width: 100%;
+  height: 100%;
+  width: 100%;
+  @include span-columns(12);
+  @include omega(n);
+  @include media (800px) {
+    @include omega();
+    @include span-columns(6, block-collapse);
+  }
+  img {
+    width: 100%;
+    margin-bottom: -4px;
+  }
+}
+
 
 #bag {
   margin-top: 300px;

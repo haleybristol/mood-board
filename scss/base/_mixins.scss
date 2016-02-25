@@ -7,6 +7,7 @@
     @include span-columns(12);
     background: url($url);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;

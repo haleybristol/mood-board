@@ -69,6 +69,7 @@ section#acrnm {
   width: 100%;
   background: url("../../img/acrnm/ss.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
@@ -92,6 +93,7 @@ section#alexander {
   width: 100%;
   background: url("../../img/alexander/hole3.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
@@ -100,6 +102,102 @@ section#alexander {
     margin-right: 0; }
   section#alexander h2 {
     width: 450px;
+    text-align: center;
+    font-size: 4em;
+    color: #9DFF00;
+    border: 10px solid #9DFF00;
+    padding: 10px; }
+
+section#ines {
+  margin-bottom: 50px;
+  height: 500px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background: url("../../img/ines/smoke.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  section#ines:last-child {
+    margin-right: 0; }
+  section#ines h2 {
+    width: 450px;
+    text-align: center;
+    font-size: 4em;
+    color: #9DFF00;
+    border: 10px solid #9DFF00;
+    padding: 10px; }
+
+section#carl {
+  margin-bottom: 50px;
+  height: 500px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background: url("../../img/carl/wood.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  section#carl:last-child {
+    margin-right: 0; }
+  section#carl h2 {
+    width: 300px;
+    text-align: center;
+    font-size: 4em;
+    color: #9DFF00;
+    border: 10px solid #9DFF00;
+    padding: 10px; }
+
+section#grimes {
+  margin-bottom: 50px;
+  height: 500px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background: url("../../img/grimes/grimez.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  section#grimes:last-child {
+    margin-right: 0; }
+  section#grimes h2 {
+    width: 280px;
+    text-align: center;
+    font-size: 4em;
+    color: #9DFF00;
+    border: 10px solid #9DFF00;
+    padding: 10px; }
+
+section#azamat {
+  margin-bottom: 50px;
+  height: 500px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background: url("../../img/azamat/azamat.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  section#azamat:last-child {
+    margin-right: 0; }
+  section#azamat h2 {
+    width: 650px;
     text-align: center;
     font-size: 4em;
     color: #9DFF00;
@@ -126,6 +224,31 @@ section#alexander {
       .col:last-child {
         width: 31.76157%; } }
   .col img {
+    width: 100%;
+    margin-bottom: -4px; }
+
+.col2 {
+  height: 100%;
+  width: 100%;
+  height: 100%;
+  width: 100%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .col2:last-child {
+    margin-right: 0; }
+  .col2:nth-child(n) {
+    margin-right: 0; }
+  @media screen and (min-width: 800px) {
+    .col2 {
+      margin-right: 0;
+      float: left;
+      display: block;
+      width: 51.17883%; }
+      .col2:last-child {
+        width: 48.82117%; } }
+  .col2 img {
     width: 100%;
     margin-bottom: -4px; }
 
