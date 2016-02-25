@@ -57,12 +57,14 @@ main {
     display: table; }
   main p {
     border-bottom: none;
-    padding: 20px; }
+    padding: 20px;
+    font-family: 'Oswald', sans-serif; }
     @media screen and (min-width: 800px) {
       main p {
         font-size: 1.1rem;
         padding: 40px;
-        border-bottom: 2px solid black; } }
+        border-bottom: 2px solid black;
+        font-family: 'Open Sans', sans-serif; } }
 
 section#acrnm {
   margin-bottom: 50px;
@@ -86,7 +88,8 @@ section#acrnm {
     font-size: 4em;
     color: #9DFF00;
     border: 10px solid #9DFF00;
-    padding: 10px; }
+    padding: 10px;
+    font-family: 'Oswald', sans-serif; }
 
 section#alexander {
   margin-bottom: 50px;
@@ -110,7 +113,8 @@ section#alexander {
     font-size: 4em;
     color: #9DFF00;
     border: 10px solid #9DFF00;
-    padding: 10px; }
+    padding: 10px;
+    font-family: 'Oswald', sans-serif; }
 
 section#ines {
   margin-bottom: 50px;
@@ -134,7 +138,8 @@ section#ines {
     font-size: 4em;
     color: #9DFF00;
     border: 10px solid #9DFF00;
-    padding: 10px; }
+    padding: 10px;
+    font-family: 'Oswald', sans-serif; }
 
 section#carl {
   margin-bottom: 50px;
@@ -158,7 +163,8 @@ section#carl {
     font-size: 4em;
     color: #9DFF00;
     border: 10px solid #9DFF00;
-    padding: 10px; }
+    padding: 10px;
+    font-family: 'Oswald', sans-serif; }
 
 section#grimes {
   margin-bottom: 50px;
@@ -182,7 +188,8 @@ section#grimes {
     font-size: 4em;
     color: #9DFF00;
     border: 10px solid #9DFF00;
-    padding: 10px; }
+    padding: 10px;
+    font-family: 'Oswald', sans-serif; }
 
 section#azamat {
   margin-bottom: 50px;
@@ -206,7 +213,8 @@ section#azamat {
     font-size: 4em;
     color: #9DFF00;
     border: 10px solid #9DFF00;
-    padding: 10px; }
+    padding: 10px;
+    font-family: 'Oswald', sans-serif; }
 
 section#turrell {
   margin-bottom: 50px;
@@ -230,7 +238,8 @@ section#turrell {
     font-size: 4em;
     color: #9DFF00;
     border: 10px solid #9DFF00;
-    padding: 10px; }
+    padding: 10px;
+    font-family: 'Oswald', sans-serif; }
 
 section#bernini {
   margin-bottom: 50px;
@@ -254,7 +263,8 @@ section#bernini {
     font-size: 4em;
     color: #9DFF00;
     border: 10px solid #9DFF00;
-    padding: 10px; }
+    padding: 10px;
+    font-family: 'Oswald', sans-serif; }
 
 .col {
   height: 100%;

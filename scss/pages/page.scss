@@ -9,10 +9,12 @@ main {
   p {
     border-bottom: none;
     padding: 20px;
+    font-family: 'Oswald', sans-serif;
     @include media(800px) {
       font-size: 1.1rem;
       padding: 40px;
       border-bottom: 2px solid black;
+      font-family: 'Open Sans', sans-serif;
     }
   }
 }
