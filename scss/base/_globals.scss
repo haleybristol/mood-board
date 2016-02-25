@@ -29,7 +29,12 @@ header {
 footer {
   height: 50px;
   bottom: 0;
-  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    padding: 20px;
+  }
 }
 
 main {
