@@ -208,6 +208,54 @@ section#azamat {
     border: 10px solid #9DFF00;
     padding: 10px; }
 
+section#turrell {
+  margin-bottom: 50px;
+  height: 500px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background: url("../../img/turrell/turnt.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  section#turrell:last-child {
+    margin-right: 0; }
+  section#turrell h2 {
+    width: 400px;
+    text-align: center;
+    font-size: 4em;
+    color: #9DFF00;
+    border: 10px solid #9DFF00;
+    padding: 10px; }
+
+section#bernini {
+  margin-bottom: 50px;
+  height: 500px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background: url("../../img/bernini/o.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  section#bernini:last-child {
+    margin-right: 0; }
+  section#bernini h2 {
+    width: 500px;
+    text-align: center;
+    font-size: 4em;
+    color: #9DFF00;
+    border: 10px solid #9DFF00;
+    padding: 10px; }
+
 .col {
   height: 100%;
   width: 100%;
