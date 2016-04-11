@@ -14,11 +14,16 @@ _Feel free to contact me at hebristol@gmail.com for any questions or issues._
 
 ## Technologies Used
 
-_HTML 5
+_HTML5
+<br>
 CSS
+<br>
 Sass
+<br>
 Bourbon
+<br>
 Neat
+<br>
 Flexbox_
 
 ### License
