@@ -1,6 +1,6 @@
 # _Artist Mood Board_
 
-#### _This is a web application developed by epicodus design students to practice using Bourbon (mixin library for Sass) and Neat (grid framework for Bourbon and Sass) {04/11/2016}_
+#### This is a web application developed by epicodus design students to practice using Bourbon (mixin library for Sass) and Neat (grid framework for Bourbon and Sass) {04/11/2016}
 
 #### By _**Haley Bristol & Oskar Radon**_
 
