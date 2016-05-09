@@ -1,4 +1,4 @@
-# _Artist Mood Board_
+# Artist Mood Board
 
 #### This is a web application developed by epicodus design students to practice using Bourbon (mixin library for Sass) and Neat (grid framework for Bourbon and Sass) {04/11/2016}
 
